@@ -95,6 +95,24 @@ body{
   }
 /* end styling nav */
 
+.background_article_box1{
+  margin: 0 auto;
+  background-color: transparent;
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1; /*Place the text above the overlay */
+}
+
+h1{
+  font-size: 50px;
+}
 /* mobile responsiveness */
 
 @media screen and (max-width: 600px){
@@ -156,4 +174,6 @@ body{
   margin-top: 200px;
 }
   /* end of Styling sidebar */
+
+
 }
