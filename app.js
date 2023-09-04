@@ -20,3 +20,9 @@ menuBtn.addEventListener("click", function(){
         toggle = true;
     }
 });
+
+// form-control sectionH
+const form = document.getElementById("form");
+const fullName = document.getElementById("fullName");
+const email = document.getElementById("email");
+
