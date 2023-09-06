@@ -458,6 +458,7 @@ h2{
   /* margin-top: 10px; */
   position: relative;
   display: inline-block;
+  
 }
 /* to overlay color on the img */
 .img_sectionH::before{
@@ -486,7 +487,7 @@ h2{
 }
 .h3_subscribe_newsletter_form{
   text-align: start;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 input{
@@ -509,10 +510,81 @@ form{
 }
 
 
+/* showerror for form validation */
+.form-control p{
+  font-style: italic;
+  font-size: 12px;
+  color: red;
+  text-align: end;
+  font-family: 'Alata', sans-serif;
+  margin-top: 3px;
+  margin-bottom: -20px;
+  visibility: hidden;
+}
+
+.form-control.error input{
+  border-color: red;
+}
+
+.form-control.error p{
+  visibility: visible;
+}
+
+.success_box{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  word-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -300px;
+  visibility: hidden;
+  z-index: 100000;
+}
+
+.success_article{
+  font-family: 'Roboto', sans-serif; 
+  padding: 40px;
+  margin-top: 25px;
+}
+
+.p_successArticle{
+  font-size: 12px;
+  padding-top: 20px;
+  margin-bottom: 25px;
+}
+
+.success_btn{
+  width: 180px;
+  height: 30px;
+  background-color:rgb(228, 155, 44);
+  text-align: center;
+  border: 1px solid;
+  text-transform: capitalize;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  border-radius: 10px;
+  border: none;
+  margin-top: -10px;
+  color: white;
+  cursor: pointer;
+}
+
+.success_btn:hover{
+    background-color:rgb(237, 197, 136);
+    color: black;
+}
+
+.success-message.success form{
+  visibility: hidden;
+}
 
 
-
-
+.success-message.success .success_box{
+  visibility: visible;
+}
 
 
 
