@@ -27,6 +27,11 @@ menuBtn.addEventListener("click", function(){
 const form = document.getElementById("form");
 const fullName = document.getElementById("fullName");
 const email = document.getElementById("email");
+// successbox
+const DismissButton = document.getElementById('button');
+const successMessage = document.querySelectorAll('.success-message');
+const emailTxt = document.querySelector(".e-email");
+const input = document.querySelector("input[name='email']");
 
 // function that shows error
 function showError(input, message){
@@ -58,12 +63,16 @@ function getFieldName(input){
 // even listener for submitting form, when the submit button is clicked
  form.addEventListener('submit', function(e){
     e.preventDefault();
+       // inputing email address into the success response message
+       let gottenMail = input.value ;
+       gottenMail = gottenMail.toLowerCase();
+       emailTxt.innerHTML="";
+       emailTxt.innerHTML=gottenMail;
+   // end
     checkRequiredField([fullName, email])
  })
 
-// successbox
- const DismissButton = document.getElementById('button');
- const successMessage = document.querySelector('.success-message');
+
 
 //  function that shows the success box
 function showSuccess(){
@@ -81,7 +90,7 @@ function removeSuccess(){
 // Event listener listening for the click dismissal event
    DismissButton.addEventListener('click', function(e){
     // e.preventDefault()
-    // console.log('frank');
+    console.log('frank');
     if (successMessage[1].classList.contains("success")) {
         removeSuccess();
       }

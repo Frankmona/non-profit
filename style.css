@@ -530,6 +530,7 @@ form{
   visibility: visible;
 }
 
+/* success box  */
 .success_box{
   width: 500px;
   height: 300px;
@@ -585,6 +586,29 @@ form{
 .success-message.success .success_box{
   visibility: visible;
 }
+/* end of sucess box */
+
+footer{
+  width: auto;
+  background-color: rgb(10, 10, 43);
+  display: flex;
+  gap: 10rem;
+  padding: 50px;
+  font-family: 'Alata', sans-serif;
+  color: white;
+}
+
+.footer_info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.footer_donateBtn{
+  margin-top: 10px;
+}
+
 
 
 
