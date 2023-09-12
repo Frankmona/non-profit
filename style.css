@@ -159,8 +159,8 @@ h1{
   border-radius: 12px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
   font-family: 'Alata', sans-serif; 
- font-weight: bold;
- font-size: 14px;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .in_article_box{
@@ -398,7 +398,6 @@ h2{
   /* background-color: aqua; */
   margin-top: 50px;
   font-family: 'Alata', sans-serif;
-
 }
 h2{
   text-align: center;
@@ -624,113 +623,6 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* mobile responsiveness */
 
 @media screen and (max-width: 600px){
@@ -794,5 +686,316 @@ footer{
 }
   /* end of Styling sidebar */
 
+  /* section A styling */
+
+  .sectionA_image{
+    background-color: rgb(10, 10, 43); 
+    background-image: url('./images/Rectangle\ 1.png');
+    background-size: cover; /* This property ensures the image covers the entire container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: 100%; /* Set a width to make sure the background covers the container */
+    height: 80vh; /* Set a height to ensure the background covers the full viewport height */
+    font-family: 'Alata', sans-serif; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.background_article_box1{
+  margin: 0 auto;
+  background-color:transparent;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1; /*Place the text above the overlay */
+}
+
+ .sectionA_buttons_class{
+    display: flex;
+    gap: 10px;
+   margin-top: 40px;
+   margin-left: 75px;
+   /* margin: 0 auto; */
+  }
+
+  .article_container{
+    Width : 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: -10px;
+    margin-bottom: -100px;
+  }
+
+  .article_box{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Alata', sans-serif; 
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .in_article_box{
+    text-align: center;
+    font-size: 18px;
+  }
+  /* end of section A */
+
+  /* sectionB */
+  .sectionB{
+    width: 100%;
+    /* height: auto; */
+    height: 410px;
+    background-color: white;
+  }
+  .fund_raising_goals_range{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(10, 10, 43);
+  }
+  
+  .internal_fund_raising_goals_range{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(232, 158, 48);
+  }
+.fund_raising_goals{
+  font-family: 'Alata', sans-serif;
+  position: absolute;
+  margin-top: 170px;
+  width: auto;
+  /* background-color: antiquewhite; */
+  height:150px;
+  margin-left: 35px;
+}
+
+.fund_goals{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Alata', sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+/* sectionC */
+.donators{
+  display: flex;
+  gap:10px;
+  padding: 5px;
+}
+
+.donations{
+  width:auto;
+  height:180px;
+  /* background-color: bisque; */
+  margin: 0 auto;
+  font-family:'Alata', sans-serif;
+}
+
+.img_donators{
+  width: 50px;
+}
+/* end of sectionC */
+
+
+/* sectionD */
+.sectionD{
+  width: 100%;
+  height: auto;
+  background-color:white;
+}
+
+.call_for_assistance{
+  display:flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  /* background-color: white; */
+  margin: 0 auto;
+}
+
+.article_box_call_for_assistance{
+  width: 370px;
+  height: 430px;
+  /* background-color: aqua; */
+  margin-top: 15px;
+  font-family: 'Alata', sans-serif;
+  margin: 0 auto;
+}
+
+.img_call_for_assistance{
+  width:100%;
+  height: 400px;
+}
+
+.p_call_for_assistance{
+  text-align: justify;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+ /* sectionE */
+ .sectionE{
+  width: 100%;
+  height: 600px;
+  background-color: rgb(10, 10, 43); 
+  margin-bottom: 100px;
+}
+.article_box_cholera_info{
+  width: 370px;
+  height: 300px;
+  /* background-color: aquamarine; */
+  margin: 0 auto;
+  font-family: 'Alata', sans-serif;
+  margin-top: 30px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  z-index: 1; /*Place the text above the overlay */
+}
+
+/* end of sectionE */
+
+/* sectionF */
+.sectionF{
+  width: 100%;
+  height: 600px;
+  background-color:white;
+}
+
+.sectionF_call_for_assistance{
+  width: 370px;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  gap:10px;
+ /* margin-top: 100px; */
+  /* background-color: rgb(194, 126, 126); */
+  margin: 0 auto;
+}
+
+.sectionF_img_call_for_assistance{
+  width:100%;
+  height: 300px;
+  margin-top: 0px;
+}
+.sectionF_article_box_call_for_assistance{
+  width: 380px;
+  height: 150px;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  font-family: 'Alata', sans-serif;
+}
+
+/* end of sectionF */
+
+/* sectionG */
+.sectionG{
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+
+.img_h3_recent_update{
+  width: 33%;
+  margin-bottom: 30px;
+}
+/* end of sectionG */
+
+/* SectionH */
+.sectionH{
+  width: 100%;
+  height: auto;
+  background-color: rgb(10, 10, 43); 
+  /* margin-bottom: 100px; */
+}
+
+.sectionH_subscribe_newsletter_form{
+  margin: 0 auto;
+  /* text-align: center; */
+  width: 100%;
+  height: 300px;
+  /* background-color: blue; */
+  top: 50%;
+  left: 50%;
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%); 
+  z-index: 1; /*Place the text above the overlay */
+}
+
+input{
+  width:350px;
+  height:40px;
+  outline: 0;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.success_box{
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  word-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -300px;
+  visibility: hidden;
+  z-index: 100000;
+}
+
+.success_box{
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  word-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -300px;
+  visibility: hidden;
+  z-index: 100000;
+}
+
+/* footer */
+
+footer{
+  width: auto;
+  background-color: rgb(10, 10, 43);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 50px;
+  font-family: 'Alata', sans-serif;
+  color: white;
+}
 
 }
