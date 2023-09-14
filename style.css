@@ -589,6 +589,7 @@ form{
 }
 /* end of sucess box */
 
+/* footer */
 footer{
   width: auto;
   background-color: rgb(10, 10, 43);
@@ -609,6 +610,7 @@ footer{
 .footer_donateBtn{
   margin-top: 10px;
 }
+/* end footer */
 
 
 
