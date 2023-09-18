@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donate</title>
+    <link rel="stylesheet" href="donate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body>
+      <!-- nav begins-->
+      <nav class="nav-center">
+        <!-- nav-header -->
+       <div class="nav-header">
+          <a href="index.html"><img src="./images/logo.svg" class="logo" alt="logo"></a>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div> 
+  
+        <!-- links -->
+        <div class="sidebar">
+          <!-- <img src="./images/logo.svg" alt="logo" class="sidebar-logo"> -->
+          <!-- <button class="close-btn">
+            <i class="fas fa-times"></i>
+          </button> -->
+    
+          <ul class="navUL">
+            <!-- tag for side bar -->
+            <a href="index.html"> Home </a>
+            <a href="about.html">About</a>
+            <a href="volunteer.html">Volunteer</a>
+            <a href="contacts.html">contacts</a> 
+            <a href="gallery.html">gallery</a> 
+            <a href="donate.html"><button class="btn">Donate</button></a>
+             <!-- end for side bar -->
+         </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- nav - ends -->
+
+      <!-- sectionA -->
+      <section class="section">
+        <div class="sectionA_article">
+            <div class="p_sectionA">
+                <h2><span>NOTE</span> Volunteering is on online</h2>
+                <h4>what you will help us with</h4>
+               
+                   <ul>
+                        <li>online awareness </li>
+                        <li>help us solicitate for donors where ever you are</li>
+                   </ul>
+            </div>
+
+            <div>
+                <img src="./images/Rectangle 57.png" alt="img" class="img_sectionA">
+            </div>
+
+        </div>
+
+      </section>
+      <!-- end sectionA -->
+
+      <!-- section B -->
+      <section class="sectionB">
+    <div class="success-message ">
+        <form action="#" id="form">
+            <!-- form validation -->
+            <!-- Name field -->
+           <div class="flexInput_field">
+                <div class="form-control ">
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name" class="input_text input_nameField" />
+                    <p>required</p>
+                </div>
+
+                <div class="form-control ">
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name" class="input_text input_nameField" />
+                    <p>required</p>
+                </div>
+           </div>
+           <!-- end name field -->
+           <!-- email -->
+           <div class="form-control">
+            <input type="email" name="email" id="email" placeholder="Email" class="input_text input_email"/>
+            <p>required</p>
+           </div>
+           <!-- end email -->
+
+           <!-- location -->
+                       <div class="flexInput_field">
+                        <div class="form-control">
+                            <input type="text" name="country" id="country" placeholder="Country..." class="input_text input_nameField" />
+                            <p>required</p>
+                        </div>
+        
+                        <div class="form-control ">
+                            <input type="text" name="state" id="state" placeholder="State..." class="input_text input_nameField" />
+                            <p>required</p>
+                        </div>
+                   </div>
+           <!-- end location -->
+
+           <!-- About your yourself  -->
+           <div class="form-control">
+            <input type="text" name="bio" id="bio" placeholder="tell us about your self......." class="input_text input_bio"/>
+           </div>
+            <!-- About your yourself  -->
+
+            <!-- btn -->
+            <button class="btn" type="submit">Submit</button>
+            <!-- end btn -->
+        </form>
+    </div>
+      </section>
+
+       <!-- success message box -->
+  <!-- target success-message on js -->
+  <div class="success-message  ">
+    <div class="success_box ">
+      <div class="success_article  ">
+          <h1>Congratulations!</h1>
+          <p class="p_successArticle">you are now a volunteer! <br>All Important Update will be sent to yor Email</p>
+           <!-- Button -->
+          <button class="success_btn" type="submit" id="button">Dismiss message</button> 
+      </div>
+   </div>
+  </div>
+      <!-- end section B -->
+
+      <!-- Footer section -->
+      <footer>
+        <div>
+        <img src="./images/logo.svg" alt="">
+        </div>
+        
+        <div class="footer_info">
+        <h4>NEED TO TALK TO US</h4>
+        <a href="#">www.loremipsum.com</a>
+        <a href="#">+234-7037-8589</a>
+        <a href="#">+448-9084-0980</a>
+        </div>
+    
+        <div class="footer_info">
+        <h4>ORGANISATION</h4>
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a> 
+        </div>
+    
+        <div class="footer_info">
+        <h4>Actions</h4>
+        <a href="volunteer.html">Volunteer</a>
+        <a href="contacts.html">contacts</a> 
+        <a href="gallery.html">gallery</a> 
+        <a href="donate.html"><button class="btn footer_donateBtn">Donate</button></a>
+        </div>
+    </footer>
+<!-- end footer -->
+</body>
+
+<script src="donate.js"></script>
+</html>
